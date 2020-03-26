@@ -8,7 +8,8 @@ import './index.css';
 //import Search from '../src/components/Search';
 //import VNA from '../src/components/VNA';
 //import Login from '../src/components/Login';
-import Login from './container/Login'
+//import Login from './container/Login'
+import Registro from './container/Registro'
 //import ClaseDigital from '../src/components/ClaseDigital';
 import * as serviceWorker from './serviceWorker';
 
@@ -20,7 +21,8 @@ import * as serviceWorker from './serviceWorker';
 //ReactDOM.render(<Footer />, document.getElementById('root'));
 //ReactDOM.render(<Search />, document.getElementById('root'));
 //ReactDOM.render(<Carrusel />, document.getElementById('root'));
-ReactDOM.render(<Login />, document.getElementById('root'));
+//ReactDOM.render(<Login />, document.getElementById('root'));
+ReactDOM.render(<Registro />, document.getElementById('root'));
 
 
 
